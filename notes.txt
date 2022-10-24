@@ -1,0 +1,14 @@
+Setting environment variables in Windows
+set FLASK_ENV=development
+set FLASK_APP="tickets"
+$env:FLASK_APP="tickets"
+
+set FLASK_DEBUG=1
+$env:FLASK_DEBUG = "1"
+
+To create tables:
+
+Create a database called dashboard
+
+In terminal, run flask shell
+Then, db.create_all()
